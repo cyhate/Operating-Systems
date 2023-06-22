@@ -1,0 +1,5 @@
+@echo off
+set /p yourname=What is your name?
+set /p times=How many times you want to print your name?
+for /L %%i in (1,1,%times%) do echo %%i %yourname%
+pause

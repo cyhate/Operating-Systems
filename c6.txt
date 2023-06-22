@@ -1,0 +1,5 @@
+@echo off
+set /p yourname=What is your name?
+IF %yourname%==John echo Welcome John
+IF NOT %yourname%==John echo Who are you?
+pause
